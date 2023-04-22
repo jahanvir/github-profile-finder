@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #1e1e2c;
+    --input-color: #2e3047;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.navigation{
+    background: black;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 0.15rem;
+    border-bottom-right-radius: 0.15rem;
+    
+}
+
+.link{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    border-radius: 0.25rem;
+    width: 2rem;
+    display: inline;
+    margin: 0 1rem;
+    background-color: white;
+}
+
+.container-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+.header-image{
+    width: 6rem;
+}
+
+main{
+    margin-top: 3rem;
+}
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    /* align-items: center; */
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    width: 60%;
+    color: black;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    text-align: left;
+    padding: 0.4rem;
+}
+
+button{
+    background: transparent;
+    border: none;
+    width: 2rem;
+    cursor: pointer;
+   
+}
+
+.icon-search{
+    width: 4rem;
+    /* border: 1px solid black; */
+    padding: 0.5rem;
+    /* border-radius: 0.5rem; */
+    /* margin: 1rem; */
+    /* background: black; */
+}
+
+.search-result-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image{
+    width: 14rem;
+    border-radius: 7rem;
+    padding: 1rem;
+}
+
+.profile-username{
+    color: black;
+    font-size: 1.5rem;
+    margin-top: .5rem;
+   
+}
+
+.profile-stats{
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.repos-card{
+    width: 80%;
+    padding: 0 1rem;
+    height: 100%;
+    margin-top: 2rem;
+}
+
+.Repo-card{
+    border: 1px solid darkgray;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.Repo-title{
+    display: flex;
+    margin-top: .25rem;
+}
+
+.repo-name{
+    font-weight: 300;
+}
+
+.followcount{
+    font-size: 0.95rem;
+    margin-left: .2rem;;
+}
+
+.loading{
+    display: none;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 2rem;
+}
+
+.error-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin:2rem; */
+}
+
+.error-msg{
+    margin: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-align: center;
+}
+
